@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width" initial-scale="1.0"/>
+
+    <link rel="stylesheet" href="/developers-portfolio/assets/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="<KEY>" crossorigin="anonymous">
+
+        <link
+        rel="fav-icon"
+        sizes="180x180"
+        href="assets/icon/favicon.png"
+        type="image/png"
+        />
+        <link rel="icon" href="/developers-portfolio/assets/icons/fav-icon.png" type="image/x-icon"/>
+      <title>Kingston Spotts | Software Engineer</title>
+    </head>
+    <body>
+
+
+        <!---Navbar-->
+        <nav>
+            <h1> Kingston Spotts</h1>
+            <ul class="navigation">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="burger-menu" id="burger-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>
+        </nav>
+
+
+        <!--Hero Section -->
+        <section class="hero" id="about">
+<img src="assets/icons/artwork.jpg" alt="working-on-comp" loading="lazy" class="hero-img"/>
+<div class="bio animate__animated animate__shakeX">
+    <h2  class="bio-title">About Me</h2>
+    <p class="bio-text">I'm a Self-taught Software Developer that is looking for an oppurtunity to learn and grow. </p>
+</div>
+
+
+        </section>
+        <!--Skill section-->
+        <section class="skills" id="skills">
+            <h2 class="skill-header">My Top Skills</h2>
+
+<div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img
+        src="/developers-portfolio/assets/icons/icon8-html-5.jpg"
+            alt="html-icon"
+            loading="lazy"
+            class="icon icon-card"
+                />
+                <img
+                  src="/developers-portfolio/assets/icons/icon8-css3.jpg"
+                  alt="css-icon"
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="/developers-portfolio/assets/icons/icon8-javascript.jpg"
+                  alt="js-icon"
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+              </div>
+
+              <div class="second-set animate__animated animate__pulse">
+                <img
+                  src="/developers-portfolio/assets/icons/icon8-bootstrap.jpg"
+                  alt="boot-icon"
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="/developers-portfolio/assets/icons/icon8-react-native.jpg"
+                  alt="react-icon"
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                src="/developers-portfolio/assets/icons/icon8-git.jpg"
+                  alt="git-icon"
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+            </div>
+            </div>
+    </section>
+
+    <!--Projects Section -->
+    <section  class="projects" id="projects">
+      <h2 class-="projects-title"> Recent Projects</h2>
+      <div class="project-container">
+        <div class="project-container project-card">
+          <img alt="music-player"
+          src="./assets/images/music_player1.PNG "class= "project-pic"
+          loading="lazy"/>
+
+          <!--project 1-->
+          <h3 class="project-title">Music Player</h3>
+          <p class="project-details">
+            Designed and programmed an Apple music-inspired web player that uses HTML, CSS, and JavaScript to play local MP3 files.
+          </p>
+          <a href="https://github.com/PinkKingSaturn/Music-Player.git" target="_blank" class="project-link"> Code</a>
+        </div>
+
+        <!--Project Card 2-->
+        <div class="project-container project-card">
+          <img src="assets/images/pixel-art-app"
+          alt="Pixel Art App" class="project-pic"
+          loading="lazy"/>
+          <h3 class="project-title">Pixel Art App</h3>
+          <p class="project-details">Web-based application that allows the creator to design and paint pixel art. This was developed usig HTML, CSS and JS.</p>
+          <a href="https://github.com/PinkKingSaturn/Pixel-art-app.git" target="_blank" class="project-link">Code</a>
+        </div>
+
+        <!--Project card 3-->
+        <div class="project-container project-card">
+          <img src=""
+          alt="project-screen"
+          loading="lazy" class="project-pic"/>
+          <h3 class="project-title">Project title</h3>
+          <p class="project-details"></p>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Contact section-->
+<section class="contact" id="contact">
+  <h2>Get in Touch With Me</h2>
+  <div class="contact-form-container">
+
+    <!--    form goes here-->
+    <div class="contact-form">
+      <form action="https://formspree.io/f/xaygpdgn" method="post">
+        <div class="form-control">
+          <label for="name">Name</label>
+          <input type="text"
+          id="name"
+          placeholder="Enter Your Name" class="input-field" required/>
+        </div>
+
+        <!--        email input field-->
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="email" id="email"
+          name="sender-email"
+          placeholder="Enter Your Email" class="input-fied" required/>
+        </div>
+
+        <!--          message Input Field -->
+        <div class="form-control">
+          <label for="message">Tell Me About Yourself</label>
+          <textarea id="message"
+          cols="60"
+          rows="10"
+          placeholder="Enter Your Message"
+          name="message"
+          class="input-field"required></textarea>
+        </div>
+        <input
+        type="submit"
+        value="Submit"
+        id="submit-btn"
+        class="submit-btn"/>
+      </form>
+    </div>
+
+  </div>
+</section>
+  <!--Social-->
+  <div class="socials">
+    <a href="www.linkedin.com/in/kingston-spotts-505454181" target="_blank">
+      <img src="/developers-portfolio/assets/icons/linkedin-logo.png"
+      alt="Linkedin"
+      loading="lazy"
+      class="socicon"/>
+    </a>
+    <a href="https://github.com/PinkKingSaturn" target="_blank">
+      <img alt="Github"
+      src="/developers-portfolio/assets/icons/github-mark.png" loading="lazy"
+      class="socicon"/>
+    </a>
+  </div>
+
+
+<i class="scroll-up" id="scroll-up"
+      ><img
+        src="/developers-portfolio/assets/icons/up-arrow.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>
+
+<footer>
+
+</footer>
+
+
+        <!--website scripts-->
+        <script src="/developers-portfolio/assets/index.js"></script>
+        <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
