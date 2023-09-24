@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8"/>
         <meta http-equiv="X-UA-compatible" content="IE=edge"/>
-        <meta name="viewport" content="width=device-width" initial-scale="1.0"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <link rel="stylesheet" href="/developers-portfolio/assets/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="<KEY>" crossorigin="anonymous">
@@ -11,10 +11,14 @@
         <link
         rel="fav-icon"
         sizes="180x180"
-        href="assets/icon/favicon.png"
-        type="image/png"
+        href="/developers-portfolio/assets/icons/fav-icon.png"
+
         />
-        <link rel="icon" href="/developers-portfolio/assets/icons/fav-icon.png" type="image/x-icon"/>
+        <link rel="icon" href="/developers-portfolio/assets/icons/fav-icon.png" type="image/png" sizes="32x32.png"/>
+
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
       <title>Kingston Spotts | Software Engineer</title>
     </head>
     <body>
@@ -37,12 +41,30 @@
 
         <!--Hero Section -->
         <section class="hero" id="about">
-<img src="assets/icons/artwork.jpg" alt="working-on-comp" loading="lazy" class="hero-img"/>
+<img src="/developers-portfolio/assets/icons/wfh-pic.png" alt="working-on-comp" loading="lazy" class="hero-img"/>
 <div class="bio animate__animated animate__shakeX">
     <h2  class="bio-title">About Me</h2>
     <p class="bio-text">I'm a Self-taught Software Developer that is looking for an oppurtunity to learn and grow. </p>
 </div>
 
+<!--more about-->
+<section class="more-about">
+  <h2>More About Me</h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+    nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+    autem deleniti cupiditate molestias quis unde quae totam porro dicta
+    iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+    nostrum dolor minus, libero delectus praesentium perferendis
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+    consequuntur labore? Ea totam voluptas amet!
+  </p>
+</section>
 
         </section>
         <!--Skill section-->
@@ -133,49 +155,40 @@
     </section>
 
 
-    <!--Contact section-->
-<section class="contact" id="contact">
-  <h2>Get in Touch With Me</h2>
-  <div class="contact-form-container">
+    <form>
+      <section class="contact" id="contact">
+      <h2 class="title text-center mb-4">Get in Touch With Me</h2>
+      <div class="contact-form-container">
 
-    <!--    form goes here-->
-    <div class="contact-form">
-      <form action="https://formspree.io/f/xaygpdgn" method="post">
-        <div class="form-control">
-          <label for="name">Name</label>
-          <input type="text"
-          id="name"
-          placeholder="Enter Your Name" class="input-field" required/>
-        </div>
 
-        <!--        email input field-->
-        <div class="form-control">
-          <label for="email">Email</label>
-          <input type="email" id="email"
-          name="sender-email"
-          placeholder="Enter Your Email" class="input-fied" required/>
-        </div>
+          <!-- Name -->
+          <div class="form-group position-relative">
+            <label for="formName" class="d-block">
+              <i class="icon" data-feather="user"></i>
+            </label>
+            <input type="text" id="formName" class="form-control form-control-lg thick" placeholder="Samuel L. Ipsum">
+          </div>
 
-        <!--          message Input Field -->
-        <div class="form-control">
-          <label for="message">Tell Me About Yourself</label>
-          <textarea id="message"
-          cols="60"
-          rows="10"
-          placeholder="Enter Your Message"
-          name="message"
-          class="input-field"required></textarea>
-        </div>
-        <input
-        type="submit"
-        value="Submit"
-        id="submit-btn"
-        class="submit-btn"/>
+          <!-- E-mail -->
+          <div class="form-group position-relative">
+            <label for="formEmail" class="d-block">
+              <i class="icon" data-feather="mail"></i>
+            </label>
+            <input type="email" id="formEmail" class="form-control form-control-lg thick" placeholder="E-mail">
+          </div>
+
+          <!-- Message -->
+          <div class="form-group message">
+            <textarea id="formMessage" class="form-control form-control-lg" rows="7" placeholder="Tell Me About Yourself"></textarea>
+          </div>
+
+          <!-- Submit btn -->
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary" tabIndex="-1">Send message</button>
+          </div>
       </form>
-    </div>
 
-  </div>
-</section>
+    </div>
   <!--Social-->
   <div class="socials">
     <a href="www.linkedin.com/in/kingston-spotts-505454181" target="_blank">
