@@ -185,6 +185,8 @@ cursor: pointer;
 .project-pic {
   width: 65%;
   height: 60%;
+  object-fit: fill;
+
 }
 .projects-container {
   display: flex;
@@ -209,7 +211,7 @@ cursor: pointer;
 }
 
 .title {
-  font-family: "poppins", sans serif;
+  font-family: "poppins", sans-serif;
   color: #212529;
   font-size: 2.5rem;
 }
@@ -236,7 +238,7 @@ cursor: pointer;
 	}
 
 ::placeholder {
-    font-family: "poppins", sans serif;
+    font-family: "poppins", sans-serif;
 		font-weight: 600;
     font-size: 1.1rem;
     color: #838788;
