@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #6dafa7;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #e9f8f2;
+}
+
+nav {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    box-shadow: 0 3px 5px rgba(0, 0green, 0blue, 0.1 alpha);
+    position: sticky
+}
+
+a:hover{
+    color: #ffe779;
+    text-decoration: none;
+}
+
+section {
+    max-width: 1100px;
+    margin:auto ;
+}
+nav h1 {
+    color: #6dafa7;
+}
+nav a {
+    color: #6dafa7;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffe779;
+    border-bottom: 2px solid #ffe779;
+}
+
+nav ul {
+    display:flex;
+    gap: 1.9rem;
+}
+
+nav ul li {
+    font-weight: 700;
+}
+
+.burger-menu {
+    display: none ;
+    color: #6dafa7;
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+cursor: pointer;
+
+}
