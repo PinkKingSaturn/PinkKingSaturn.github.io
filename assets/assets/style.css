@@ -18,16 +18,16 @@ list-style-type: none;
 
 body{
     font-family: "Roboto", sans-serif;
-    background-color: #e9f8f2;
+    background-color: #fff;
 }
 
     a {
-        text-decoration:none;
-    color: #6dafa7;
+        text-decoration: none;
+    color: #000000;
 }
 
 a:hover {
-    color: #ffe779;
+    color: #ED6196;
     text-decoration: none;
 }
 
@@ -45,21 +45,21 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
-    background-color: #e9f8f2;
+    background-color: #CBEFE1;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav h1 {
-    color: #6dafa7;
+    color: #000000;
 }
 nav a {
-    color: #6dafa7;
+    color: #000000;
     transition: 0.3s;
 }
 
 nav a:hover {
-    color: #ffe779;
-    border-bottom: 2px solid #ffe779;
+    color: #ED6196;
+    border-bottom: 2px solid #ED6196;
 }
 
 nav ul {
@@ -72,10 +72,10 @@ nav ul li {
 }
 .burger-menu {
     display: none ;   /* Hidden by default */
-    color: #6dafa7;
+    color: #000000;
     font-size: 2rem;
     border: 0;
-    background-color: transparent;
+    background-color: #CBEFE1;
 cursor: pointer;
 
 }
@@ -89,8 +89,8 @@ cursor: pointer;
 .resume{
   padding: 1rem 2rem;
   font-size: 1rem;
-  color: #6dafa7;
-  background-color: #e9f8f2;;
+  color: #000000;
+  background-color: #CBEFE1;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -213,6 +213,7 @@ cursor: pointer;
   font-family: "poppins", sans serif;
   color: #212529;
   font-size: 2.5rem;
+  padding: 2rem;
 }
 
 .form-control {
@@ -258,6 +259,7 @@ cursor: pointer;
     position: absolute;
     left: 1.5rem;
     top: 1.1rem;
+
   }
 
 
@@ -269,13 +271,13 @@ cursor: pointer;
   padding: 0 3rem;
   border: 0;
   border-radius: 3rem;
-  background-image:linear-gradient(131deg, #ffd340, #ff923c, #ff923c, #ff923c);
+  background-image:linear-gradient(131deg, #cbefb1, #a0e1c8, #a0e1c8, #70d2ac);
   background-size: 300% 100%;
   transition: all 0.3s ease-in-out;
 }
 
 .btn.btn-primary:hover:enabled {
-  box-shadow: 0 0.5em 0.5em -0.4em #ff923cba;
+  box-shadow: 0 0.5em 0.5em -0.4em #1FAE77;
   background-size: 100% 100%;
   transform: translateY(-0.15em);
 }
@@ -294,7 +296,7 @@ cursor: pointer;
     }
 
     footer {
-      background-color: #e9f8f2;
+      background-color: #CBEFE1;
       padding: 1.25rem;
       text-align: center;
       margin: 2rem 0 0;
@@ -307,8 +309,8 @@ cursor: pointer;
     }
 
     .up-arrow {
-      width: 3rem;
-      height: 3rem;
+      width: 2rem;
+      height: 2rem;
     }
  @media  (max-width: 768px) {
       nav {
